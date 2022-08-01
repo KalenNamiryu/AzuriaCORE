@@ -1,0 +1,5 @@
+Huge thanks to Kaupenjoe for his modding tutorial, several parts of my mod comes directly from his tutorial.
+https://github.com/Tutorials-By-Kaupenjoe/Forge-Tutorial-1.18.1
+
+distributed under MIT:
+https://opensource.org/licenses/mit-license.php
