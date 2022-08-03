@@ -1,8 +1,8 @@
 # Azuria: CORE
 Economy, Territory &amp; Power  
-Copyright(C)[^1] 2022 - [@KalenNamiryu]
+Copyright (C) 2022 - [@KalenNamiryu]
 
-<ins>Current version of the mod:</ins> ***0.0.1-1.18.2***
+<ins>Current version of the mod:</ins> ***0.0.3-1.18.2***
 
 Huge thanks to [@Kaupenjoe] for his [modding tutorial] that helped me a lot for my first mod!  
 Several parts of my mod comes directly from his tutorial.
@@ -28,15 +28,3 @@ Well if you also ask yourself these kinds of questions, feel free to take a look
 [@Kaupenjoe]: https://github.com/Tutorials-By-Kaupenjoe
 [modding tutorial]: https://www.youtube.com/playlist?list=PLKGarocXCE1Hut51TKKqZKqVZtKLZC48x
   
-
-[^1]:
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.  
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.  
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see http://www.gnu.org/licenses.
