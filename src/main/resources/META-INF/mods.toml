@@ -29,14 +29,12 @@ displayName="Azuria: CORE" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="azuriacore.png" #optional
 # A text field displayed in the mod UI
-credits="" #optional
+credits="Check CREDITS.txt" #optional
 # A text field displayed in the mod UI
 authors="KalenNamiryu" #optional
 # The description text for the mod (multi line!) (#mandatory)
-description='''
-Azuria: CORE - 1.18.2
-Economy, Territory & Power
-'''
+description='''Azuria: CORE
+Economy, Territory & Power'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.azuriacore]] #optional
     # the modid of the dependency
