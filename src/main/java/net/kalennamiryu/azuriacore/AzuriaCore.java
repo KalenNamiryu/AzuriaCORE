@@ -1,5 +1,6 @@
 package net.kalennamiryu.azuriacore;
 
+import net.kalennamiryu.azuriacore.setup.Config;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.EventBus;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +22,9 @@ public class AzuriaCore {
         registries(eventBus);
 
         eventBus.addListener(this::setup);
+
+        // Init config files
+        Config.register();
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
