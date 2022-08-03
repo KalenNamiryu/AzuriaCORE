@@ -7,7 +7,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.forge.event.lifecycle.GatherDataEvent;
 
-// This class come from Kaupenjoe 1.18 tutorial under MIT License, link in the README.md
+// This class come from Kaupenjoe 1.18 tutorial under MIT License, link in the CREDITS.txt
 @Mod.EventBusSubscriber(modid = AzuriaCore.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DataGenerators {
     @SubscribeEvent
