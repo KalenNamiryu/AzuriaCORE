@@ -1,6 +1,7 @@
 package net.kalennamiryu.azuriacore;
 
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.EventBus;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -17,7 +18,9 @@ public class AzuriaCore {
     public AzuriaCore() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        registries(eventBus);
 
+        eventBus.addListener(this::setup);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -27,6 +30,12 @@ public class AzuriaCore {
         event.enqueueWork(() -> {
             // nothing here for now
         });
+    }
+
+    private void registries(IEventBus eventBus) {
+//        ModItems.register(eventBus);
+//        ModBlocks.register(eventBus);
+
     }
 
 }
