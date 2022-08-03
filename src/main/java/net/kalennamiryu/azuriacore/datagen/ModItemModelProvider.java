@@ -8,7 +8,7 @@ import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
-// This class come from Kaupenjoe 1.18 tutorial under MIT License, link in the README.md
+// This class come from Kaupenjoe 1.18 tutorial under MIT License, link in the CREDITS.txt
 public class ModItemModelProvider extends ItemModelProvider {
     public ModItemModelProvider(DataGenerator generator, ExistingFileHelper existingFileHelper) {
         super(generator, AzuriaCore.MOD_ID, existingFileHelper);
