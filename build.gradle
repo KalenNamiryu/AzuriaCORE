@@ -21,7 +21,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'org.parchmentmc.librarian.forgegradle'
 
 
-version = "${azuriacore_version}-${mc_version}"
+version = "${mc_version}-${azuriacore_version}"
 group = 'net.kalennamiryu.azuriacore' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'azuriacore'
 
@@ -151,6 +151,8 @@ repositories {
     // flatDir {
     //     dir 'libs'
     // }
+
+    //maven { url = 'https://maven.blamejared.com/' } // mutil & tetra
 }
 
 dependencies {
@@ -158,6 +160,9 @@ dependencies {
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
     minecraft 'net.minecraftforge:forge:1.18.2-40.1.0'
+
+
+    //implementation fg.deobf("se.mickelus.mutil:mutil:${mc_version}-${mutil_version}")
 
     // Real mod deobf dependency examples - these get remapped to your current mappings
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency
