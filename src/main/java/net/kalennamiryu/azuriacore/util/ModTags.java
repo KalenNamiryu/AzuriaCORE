@@ -8,6 +8,7 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 
+// This class come from Kaupenjoe 1.18 tutorial under MIT License, link in the CREDITS.txt
 public class ModTags {
     public static class Blocks {
 
