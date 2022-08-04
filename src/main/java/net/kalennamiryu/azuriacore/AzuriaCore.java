@@ -2,7 +2,6 @@ package net.kalennamiryu.azuriacore;
 
 import net.kalennamiryu.azuriacore.setup.Config;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.eventbus.EventBus;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -19,6 +18,7 @@ public class AzuriaCore {
     public AzuriaCore() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        // Register blocks, items & all other stuffs added by the mod
         registries(eventBus);
 
         eventBus.addListener(this::setup);
