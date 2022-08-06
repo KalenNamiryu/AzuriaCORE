@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "L L",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "azuriacore:reinforced_leather"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "azuriacore:great_leather_purse"
+  }
+}

@@ -1,6 +1,7 @@
 package net.kalennamiryu.azuriacore.datagen;
 
 import net.kalennamiryu.azuriacore.AzuriaCore;
+import net.kalennamiryu.azuriacore.item.ModItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -16,7 +17,14 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        simpleItem(ModItems.SILVER_COIN.get());
+        simpleItem(ModItems.AZURIA_TOKEN.get());
+        simpleItem(ModItems.REINFORCED_LEATHER.get());
 
+        simpleItem(ModItems.LEATHER_PURSE.get());
+        simpleItem(ModItems.GREAT_LEATHER_PURSE.get());
+        simpleItem(ModItems.ENCHANTDED_LEATHER_PURSE.get());
+        simpleItem(ModItems.BOTTOMLESS_PURSE.get());
     }
 
     private ItemModelBuilder simpleItem(Item item) {

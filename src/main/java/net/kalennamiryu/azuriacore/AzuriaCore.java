@@ -1,5 +1,6 @@
 package net.kalennamiryu.azuriacore;
 
+import net.kalennamiryu.azuriacore.item.ModItems;
 import net.kalennamiryu.azuriacore.setup.Config;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -37,7 +38,7 @@ public class AzuriaCore {
     }
 
     private void registries(IEventBus eventBus) {
-//        ModItems.register(eventBus);
+        ModItems.register(eventBus);
 //        ModBlocks.register(eventBus);
 
     }

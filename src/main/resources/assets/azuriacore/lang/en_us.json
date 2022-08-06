@@ -1,0 +1,18 @@
+{
+  // TABS
+  "itemGroup.core_tab": "Azuria: CORE",
+  "itemGroup.economy_tab": "Azuria: ECONOMY",
+
+  // ITEMS
+  "item.azuriacore.silver_coin": "Silver Coin",
+  "item.azuriacore.azuria_token": "Azuria Token",
+  "item.azuriacore.reinforced_leather": "Reinforced Leather",
+
+  "item.azuriacore.leather_purse": "Leather Purse",
+  "item.azuriacore.great_leather_purse": "Great Leather Purse",
+  "item.azuriacore.enchanted_leather_purse": "Enchanted Leather Purse",
+  "item.azuriacore.bottomless_purse": "Bottomless Purse"
+
+  // BLOCKS
+
+}
