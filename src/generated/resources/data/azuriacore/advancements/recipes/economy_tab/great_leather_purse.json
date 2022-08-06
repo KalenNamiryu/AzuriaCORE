@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "azuriacore:great_leather_purse"
+    ]
+  },
+  "criteria": {
+    "has_leather_purse": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "azuriacore:leather_purse"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "azuriacore:great_leather_purse"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_leather_purse",
+      "has_the_recipe"
+    ]
+  ]
+}
